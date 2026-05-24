@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# pytest
+.pytest_cache/
+
+# Test assets
+tests/**/*.mp4
+tests/**/*.mov
+tests/**/*.avi
+
+# dev working directory
+dev/

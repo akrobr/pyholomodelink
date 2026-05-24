@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyholomodelink"
+version = "0.1.0"
+requires-python = ">=3.9"
+description = "Python library for controlling a HoloModeLink device over TCP"
+authors = [
+    {name = "akrobr"}
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
